@@ -1,3 +1,7 @@
+const React = require('react')
+const UserPrompt = require('./components/UserPrompt')
+const Results = require('./components/Results')
+
 function setNoUserFound(twitterHandle) {
   $("#search-field").val("No User Found!")
   $("#search-field").addClass("errorAnimator")
