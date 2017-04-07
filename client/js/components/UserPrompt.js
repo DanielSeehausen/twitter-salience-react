@@ -25,7 +25,7 @@ class UserPrompt extends React.Component {
   }
 
   componentWillMount(nextProps, nextState) {
-    if (nextProps.userInputError) {
+    if (nextProps.userInputError)
       $("#search-field").addClass("errorAnimator")
   }
 
@@ -50,3 +50,5 @@ class UserPrompt extends React.Component {
     )
   }
 }
+
+export default UserPrompt
